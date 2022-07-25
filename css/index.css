@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'poppins';
+}
+
+body{
+    margin-left: 3rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 4rem;
+}
+
+nav :nth-child(3){
+    max-width: 300px;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    margin-top: 2rem;
+}
+
+.left-section h3{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.left-section h1{
+    font-size: 4rem;
+    font-family: 'fredoka one';
+}
+
+.sub-headlines{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+.sub-headline {
+    /* padding-bottom: 0.5rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.sub-headline img{
+    background-color: #ee4d0e;
+    border-radius: 5rem;
+    
+}
+
+.text{
+    margin-top: 2rem;
+    color: #aa9e9e;
+}
+
+.action-btn{
+    padding: 1rem 3rem;
+    background-color: #ee4d0e;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.right-section{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.discount{
+    position: absolute;
+    width: 140px;
+    bottom: 9.5rem;
+    left: -3.5rem;
+    z-index: 0;
+}
+
+.discount-content h4,h1{
+    font-family: 'fredoka one';
+}
+
+.discount-content{
+    position: absolute;
+    bottom: 10.8rem;
+    left: -1.5rem;
+    line-height: 1rem;
+}
+
+.headphone-div :nth-child(3) {
+    width: 500px;
+}
+
+.dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.dot{
+    height: 25px;
+        width: 25px;
+        border-radius: 50%;
+}
+
+.yellow-dot{
+    
+    background-color: #d8c411;
+}
+
+.tomato-dot{
+   
+    background-color: #d82710;
+}
+
+.black-dot{
+ 
+    background-color: #080808;
+}
+
+.right-section button {
+    width: fit-content;
+    margin-left: 9.5rem;
+}
+
